@@ -966,7 +966,6 @@
 				<link rel="stylesheet" type="text/css" href="css/style.css">
 				<?php include_once "imgs/background.php";if($dynamic){echo "<script>bg_time=".$changetime.";</script>";} ?>
 				<script type="text/javascript" src="js/effects.js"></script>
-				<?php eval(file_get_contents('js/jquery.js')); ?>
 			</head>
 			<body onload="loaded();">
 				<img src="imgs/background.php" class="bg-img" />
